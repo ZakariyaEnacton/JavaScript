@@ -7,4 +7,6 @@ console.log(discountPentage);
 
 displayDiscountPercentag = Math.round(discountPentage);
 
-console.log(displayDiscountPercentag + '% off')
+console.log(displayDiscountPercentag + '% off');
+
+console.log(typeof discountPentage);
