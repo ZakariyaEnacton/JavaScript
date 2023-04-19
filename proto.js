@@ -11,14 +11,18 @@ User.prototype.getFirstName = function () {
 }
 var jhon = new User('Jhon', 'Deen');
 // console.log(jhon);
-jhon.getFirstName()
+// jhon.getFirstName()
 jhon.getlastName()
+
+if (jhon.hasOwnProperty('firstName')) {
+    jhon.getFirstName();
+}
 
 // var jhon1 = new User('Jhon', 'cook')
 // console.log(jhon1);
 // jhon1.getlastName()
 
-var sam = new User('Sam', 'walker');
-// console.log(sam);       
-sam.getFirstName()
-sam.getlastName()
+// var sam = new User('Sam', 'walker');
+// // console.log(sam);       
+// sam.getFirstName()
+// sam.getlastName()
