@@ -1,3 +1,5 @@
+// array and it's object
+
 var countries = ['India', 'USA', 'Russia', 'Enngland'];
 var states = new Array('Gujarat', 'Mumbai', 'Delhi', 'Banglore');
 
