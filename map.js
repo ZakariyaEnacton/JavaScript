@@ -28,4 +28,3 @@ myCount.forEach((key) => console.log(`${key}`));
 // note : also here v => value and k => key first always will be value
 myCount.forEach((v, k) => console.log(` key ${k} and value ${v}`));
 
-
