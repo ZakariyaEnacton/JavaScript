@@ -22,3 +22,6 @@ function firstName(fname) {
 
 var myInfo = firstName("Muhammad Zakariya");
 console.log(myInfo("Bombaywala"));
+
+
+console.log(firstName(fname)(lname));
