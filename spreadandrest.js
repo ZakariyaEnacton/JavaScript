@@ -15,7 +15,7 @@ console.log(`this is using with spread operator : ` + sumTwo(...mySum)); // spre
 // note: rest Op rest Op convert individual values into array
 
 function sumThree(a, b, ...args) { // rest Op
-    // console.log(args);
+    console.log(args);
     let sum = a + b;
     let mul = 1;
     for (const arg of args) {
@@ -24,4 +24,4 @@ function sumThree(a, b, ...args) { // rest Op
     return [mul, sum];
 }
 
-console.log(sumThree(5, 5, 5, 5));
+console.log(sumThree(5, 5, 5, 5, 5));
