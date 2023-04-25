@@ -28,3 +28,13 @@ myCount.forEach((key) => console.log(`${key}`));
 // note : also here v => value and k => key first always will be value
 myCount.forEach((v, k) => console.log(` key ${k} and value ${v}`));
 
+
+
+
+// map function
+
+let arr = [5, 2, 3, 7]
+
+console.log(arr.map((x) => x * 2));
+
+console.log(arr.map((x) => x.toString(2)));
