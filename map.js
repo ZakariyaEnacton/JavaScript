@@ -38,3 +38,7 @@ let arr = [5, 2, 3, 7]
 console.log(arr.map((x) => x * 2));
 
 console.log(arr.map((x) => x.toString(2)));
+
+let a = arr.map((value, index, array) => console.log(index, value, array,))
+
+console.log(a);
